@@ -1,8 +1,12 @@
     <header role="banner" id="fh5co-header">
+        <script src="https://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
         <div class="container">
             <!-- <div class="row"> -->
             <nav class="navbar navbar-default">
                 <div class="navbar-header">
+                    <html xmlns:wb="http://open.weibo.com/wb"></html>
+                    <wb:follow-button uid="2991975565" type="red_1" width="67" height="24"  ></wb:follow-button>
+
                     <!-- Mobile Toggle Menu Button -->
                     <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
                     <a class="navbar-brand" href="index.html">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a> 
@@ -41,7 +45,10 @@
                     {{ end }}
                 </ul>
             </div>
+        
         </nav>
         <!-- </div> -->
+
     </div>
+
 </header>

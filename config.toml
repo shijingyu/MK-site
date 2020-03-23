@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "http://localhost:8083"
+baseurl = "http://localhost:8083" #134.175.182.249 #port = 8083
 title = "MK官网"
 languageCode = "zh-cn"
 theme = "my_elate"
@@ -25,6 +25,8 @@ theme = "my_elate"
     services = "发单工具"
     about = "快捷工具"
     contact = "MK"
+
+
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -76,7 +78,7 @@ theme = "my_elate"
 
   [[params.intro.item]]
     title = "免费试用"
-    description = "MK收费工具全部都是免费试用24小时，好用再付费。下载即试用，全功能无限制，口碑需要用产品积累！"
+    description = "MK收费工具全部都是下载即免费试用24小时，全功能无限制，不给试用就让付费的软件都是耍流氓，口碑需要用产品积累！"
     url = "/jiaocheng.html"
     button = "下载"
     icon = "icon-bulb"
